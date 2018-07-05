@@ -1,0 +1,150 @@
+﻿html {
+	background: url(../img/mainbg.png)no-repeat;
+	background-size: cover;
+}
+
+body{
+  margin: 15% 0;
+  color: #303030;
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  width: 786px;
+  height: 391px;
+ 	margin: 0 auto;
+  background: #111a28;
+  border-radius: 10px ;
+}
+
+.header {
+	padding: 20px;
+	height: 5%;
+}
+
+.image {
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+}
+
+.logo__menu {
+	margin: 55px 35px 0 0;
+	width: 329px;
+	height: 159px;
+}
+
+.info {
+	vertical-align: top;
+  width: 30%;
+  display: inline-block;
+}
+
+.text__one {
+	color:  #e1e1e1;
+	font-size: 24px;
+}
+.text__two {
+	margin: 5px 0 0;
+	color: grey;
+	font-size: 14px;
+	line-height: 26px;
+	display: block;
+}
+
+ul.nike__color  {
+ margin-top: 50px;
+ padding: 0;
+}
+
+.nike__color li {
+  height: 12px;
+  width: 12px;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 3px;
+  list-style: none;
+  background:white;
+  border-radius: 50%;
+  border: 1px solid #4f5660;
+}
+
+.nike__color li:hover {
+	height: 15px;
+  width: 15px;
+}
+
+.nike__color li:nth-child(1) {
+  background:#1f273f;
+}
+.nike__color li:nth-child(3) {
+  background:#ed3333;
+}
+.nike__color li:nth-child(4) {
+  background:#29e3ea;
+}
+
+form p,
+form input[type="submit"] {
+  text-align: center;
+  font-size: 20px;
+}
+
+.nike__star form input[type="submit"] {
+  border: 1px solid #d9d9d9;
+  background-color: #efefef;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+	line-height: 1;
+	text-align: left;
+	direction: rtl;
+	unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: #F6C61A;
+}
+
+input[type="radio"]:checked ~ label {
+  color: #F6C61A;
+}
+
+.search__select {
+	background-color: #111a28;
+	border-color: #fff;
+	color: #e1e1e1;
+	font-size: 14px;
+	opacity: 0.26;
+	width: 67px;
+	height: 30px;
+	padding: 5px;
+}
+
+button {
+ 	display: block;
+ 	width: 182px;
+ 	height: 38px;
+ 	background: #202835;
+ 	color: grey;
+ 	border:1px solid grey;
+ 	font-size: 14px;
+ 	margin: 40px 0 20px 0;
+}
+
+button:hover {
+	  background: #F6C61A;
+	  color: white;
+	  border:none;
+}
+
+
